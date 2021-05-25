@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav>
-      <a href="mailto:malikoabdulaziz@gmail.com" className="top-left link">
-        Contact
+      <a
+        href="https://drive.google.com/file/d/1ACodxBbKBgJp6HgO4CUJFPHmsSgiCLrS/view?usp=sharing"
+        className="top-left link"
+      >
+        Resume
       </a>
       <Link to="/projects" className="top-right link">
         Projects
