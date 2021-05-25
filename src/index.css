@@ -170,13 +170,14 @@ u {
 }
 .contact {
   max-width: 1300px;
-  margin: 8rem auto 0;
+  margin: 7% auto 0;
   width: 60%;
 }
 ul.socials {
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-bottom: 0;
 }
 
 ul.socials li {
