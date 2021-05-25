@@ -1,13 +1,228 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  /* height: 100%; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #293335;
+}
+.container {
+  width: 100vw;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  width: 4rem;
+  top: 2rem;
+  left: 48%;
+}
+.logo img {
+  width: 100%;
+}
+nav a,
+footer a {
+  text-transform: uppercase;
+  display: block;
+  position: fixed;
+  font-size: 1.3rem;
+  color: white;
+  transition: transform 0.7s;
+}
+
+nav a:hover,
+footer a:hover {
+  font-size: 1.4rem;
+}
+.top-left {
+  top: 2rem;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 2rem;
+}
+
+.top-right {
+  top: 2rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  margin-right: 2rem;
+}
+
+.bottom-left {
+  bottom: 2rem;
+  left: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 2rem;
+}
+
+.bottom-right {
+  bottom: 2rem;
+  right: 0;
+  writing-mode: vertical-lr;
+  margin-right: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin: 0 auto 0.5rem;
+  color: #ff9800;
+}
+
+.content p {
+  font-size: 2.2rem;
+  text-align: justify;
+  margin: 2rem auto;
+  color: white;
+}
+
+.image {
+  width: 30%;
+  margin-top: 20rem;
+}
+
+.image img {
+  width: 15rem;
+}
+
+.project-container {
+  width: 60%;
+  margin: 8rem auto;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #ff9800;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  font-size: 1.8rem;
+  color: white;
+  text-align: justify;
+}
+
+li {
+  font-size: 1.5rem;
+  list-style: lower-greek;
+  color: white;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+a.live-link {
+  border-radius: 3px;
+  border: 2px solid #ff9800;
+  background-color: #ff9800;
+  margin: 0 1em;
+  padding: 0.25rem 1rem;
+  color: black;
+  font-size: 1.4rem;
+}
+
+a.github {
+  font-size: 1.4rem;
+  border-radius: 3px;
+  background: transparent;
+  border: 2px solid #ff9800;
+  padding: 0.25rem 1rem;
+  color: white;
+}
+
+.about-container {
+  width: 60%;
+  margin: 8rem auto;
+}
+
+.about-container p {
+  line-height: 2.5rem;
+  font-size: 1.8rem;
+}
+
+.interest-container {
+  width: 60%;
+  margin: 8rem auto;
+}
+u {
+  color: #ff9800;
+}
+.contact {
+  width: 50%;
+  position: absolute;
+  max-width: 1300px;
+  bottom: 0;
+  left: 25%;
+}
+ul.socials {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+ul.socials li {
+  list-style: none;
+  width: 2rem;
+}
+
+ul.socials li a {
+  width: 2rem;
+}
+
+ul.socials img {
+  width: 100%;
+  height: 4rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 570px) {
+  p {
+    font-size: 1.8rem;
+  }
+  h1,
+  div.title {
+    font-size: 2.4rem;
+  }
+  .content p {
+    font-size: 1.8rem;
+  }
+  ul.socials {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .project-container {
+    width: 70%;
+  }
+  .about-container {
+    width: 70%;
+  }
+  .about-container p {
+    text-align: justify;
+  }
+  .content {
+    width: 70%;
+  }
 }
