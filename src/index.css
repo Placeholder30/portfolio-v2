@@ -228,6 +228,9 @@ ul.socials img {
   .about-container {
     width: 70%;
   }
+  .interest-container {
+    width: 70%;
+  }
   .about-container p {
     text-align: justify;
   }
