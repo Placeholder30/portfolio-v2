@@ -1,16 +1,14 @@
 import React from "react";
 import Footer from "../Nav/Footer";
 import Header from "../Nav/Header";
-import { Link } from "react-router-dom";
-import logo from "../../assets/logoo.svg";
+import Socials from "../Socials/Socials";
+import HomeIcon from "../HomeIcon";
 function About() {
   return (
     <>
       <Header />
       <div className="container">
-        <Link to="/" className="logo">
-          <img src={logo} alt="" />
-        </Link>
+        <HomeIcon />
         <div className="about-container" id="about">
           <div className="about-inner">
             <h2>About Me!</h2>
@@ -35,6 +33,7 @@ function About() {
             </p>
           </div>
         </div>
+        <Socials />
       </div>
       <Footer />
     </>

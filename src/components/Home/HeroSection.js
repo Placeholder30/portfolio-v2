@@ -2,17 +2,14 @@ import React from "react";
 import Footer from "../Nav/Footer";
 import Header from "../Nav/Header";
 import avatar from "../../assets/avatarr.jpg";
-import { Link } from "react-router-dom";
-import logo from "../../assets/logoo.svg";
 import Socials from "../Socials/Socials";
+import HomeIcon from "../HomeIcon";
 function HeroSection() {
   return (
     <>
-      <Link to="/" className="logo">
-        <img src={logo} alt="" />
-      </Link>
       <Header />
       <div className="container">
+        <HomeIcon />
         <div className="intro-container">
           <div className="content">
             <div className="image">

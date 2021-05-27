@@ -16,12 +16,16 @@ body {
   margin: 0 auto;
 }
 
-.logo {
+.svg-container {
   position: absolute;
-  width: 4rem;
+  width: 100vw;
+  max-width: 1300px;
   top: 2rem;
-  left: 48%;
-  display: none;
+}
+.logo {
+  margin: 0 auto;
+  display: flex;
+  width: 6rem;
 }
 .logo img {
   width: 100%;
@@ -170,9 +174,12 @@ u {
   color: palevioletred;
 }
 .contact {
+  position: fixed;
+  bottom: 0;
+  left: 20%;
   max-width: 1300px;
-  margin: 10% auto 0;
   width: 60%;
+  background-color: #f4f1ec;
 }
 ul.socials {
   display: flex;
@@ -206,6 +213,10 @@ ul.socials img {
   }
   .content p {
     font-size: 1.8rem;
+  }
+  .contact {
+    width: 70%;
+    left: 15%;
   }
   ul.socials {
     width: 100%;
