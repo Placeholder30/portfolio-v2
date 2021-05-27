@@ -6,9 +6,9 @@ import HomeIcon from "../HomeIcon";
 function Interest() {
   return (
     <>
-      <HomeIcon />
       <Header />
       <div className="container">
+      <HomeIcon />
         <div className="interest-container">
           <div className="interest">
             <h2>Interests</h2>
