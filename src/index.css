@@ -14,7 +14,7 @@ body {
   width: 100vw;
   max-width: 1300px;
   margin: 0 auto;
-  height: 83vh;
+  min-height: 83vh;
 }
 
 .svg-container {
