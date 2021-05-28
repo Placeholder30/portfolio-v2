@@ -238,12 +238,21 @@ ul.socials img {
     width: 70%;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
   h1,
   div.title {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .content p {
     font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 330px) {
+  h1,
+  div.title {
+    font-size: 1.5rem;
+  }
+  .content p {
+    font-size: 1.3rem;
   }
 }
