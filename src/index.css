@@ -203,6 +203,24 @@ ul.socials img {
   height: 4rem;
 }
 
+/* animation */
+@keyframes spin {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.top-right {
+  animation: spin 8s linear infinite;
+}
+
+.top-right:hover {
+  animation: none;
+}
+
 /* Media queries */
 @media screen and (max-width: 570px) {
   p {
