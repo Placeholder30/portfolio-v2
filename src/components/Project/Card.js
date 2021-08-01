@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({ title, summary, stacks, github, liveLink }) {
+function Card({ title, summary, stack, github, liveLink }) {
   return (
     <div className="project">
       <h3>{title}</h3>
@@ -8,7 +8,7 @@ function Card({ title, summary, stacks, github, liveLink }) {
         <p>{summary}</p>
       </div>
       <ul className="tech-stack">
-        {stacks.map((stack) => (
+        {stack.map((stack) => (
           <li> {stack}</li>
         ))}
       </ul>
