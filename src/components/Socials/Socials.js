@@ -18,7 +18,7 @@ function Socials() {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/abdulaziz-malik-b47434125/">
+          <a href="https://linkedin.com/in/abdulaziz-malik-">
             <img src={linkedin} alt="linkein" />
           </a>
         </li>
