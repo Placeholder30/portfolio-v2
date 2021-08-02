@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav>
       <a
-        href="https://drive.google.com/file/d/1Jd4nffq_cZWwS8hJbEL_oLeUQ-V1A9Vg/view?usp=sharing"
+        href="https://drive.google.com/file/d/1-pRANyGH4fmnRsM4Jn_iRH0zlyhMeME1/view?usp=sharing"
         className="top-left link"
       >
         Resume
