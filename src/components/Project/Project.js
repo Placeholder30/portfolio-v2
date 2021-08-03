@@ -55,7 +55,7 @@ The user can create an account, login and place an order. The
 user can also view all previous orders`;
 const lekkiStoreStack = ["React", "Express", "Postgres", "Styled Components"];
 
-const trimmerSummary = ` A url shortener app built with React Express and Redis, Enter you long url and get a shortened one returned`;
+const trimmerSummary = ` A url shortener app built with React Express and Redis. Enter you long url and get a shortened one returned`;
 const trimmerStack = ["React", "NodeJS", "Redis"];
 
 const socialMediaFeedSummary = `This is a social media feed, one of the first projects I made. I
