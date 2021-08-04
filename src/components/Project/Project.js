@@ -45,21 +45,12 @@ function Project() {
 }
 
 export default Project;
+const lekkiStoreSummary = `This is an ecommerce site. The Frontend was built with React and styled with styled components. The backend was built with NodeJS on the express framework with Postgres as the database of choice. I used JWT for user authentication, and bcrypt for password hashing. The user can create an account, login and place an order. The user can also view all previous orders.`;
 
-const lekkiStoreSummary = `This is an ecommerce site. Front end was made with React and
-styling was achieved with styled components. The backend was
-done with Node on the express framework, Postgres was the
-database of choice and ORM used is Sequelize. I used JWT for
-user authentication, and bcrypt was used for password hashing.
-The user can create an account, login and place an order. The
-user can also view all previous orders`;
 const lekkiStoreStack = ["React", "Express", "Postgres", "Styled Components"];
 
 const trimmerSummary = ` A url shortener app built with React Express and Redis. Enter your long url and get a shortened one returned.`;
 const trimmerStack = ["React", "Express", "Redis"];
 
-const socialMediaFeedSummary = `This is a social media feed, one of the first projects I made. I
-got to practice CSS grid and Flexbox, I also used JavaScript to
-enable the light and dark mode toggle functionality, and leveraged the cascade to enable darkmode styles`;
-
+const socialMediaFeedSummary = `This is a social media feed, one of the first projects I made. I got to practice CSS grid and Flexbox, I also used JavaScript to enable the light and dark mode toggle functionality, and leveraged the cascade to enable dark mode styles.`;
 const socialMediaFeedStack = ["HTMl", "CSS", "JavaScript"];
