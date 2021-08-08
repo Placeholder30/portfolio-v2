@@ -21,7 +21,7 @@ function Interest() {
               medium of consuming new information.
             </p>
             <p>
-              I'm currently Working on a Journalling app
+              I'm currently Working on a Journalling app, check 
               it out {" "}
               <strong>
                 <a href="https://github.com/Placeholder30/Jotta">
