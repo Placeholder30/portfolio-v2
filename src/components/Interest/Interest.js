@@ -22,7 +22,7 @@ function Interest() {
             </p>
             <p>
               I'm currently Working on a Journalling app
-              it out
+              it out {" "}
               <strong>
                 <a href="https://github.com/Placeholder30/Jotta">
                   <u>here</u>
