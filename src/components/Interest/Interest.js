@@ -21,11 +21,10 @@ function Interest() {
               medium of consuming new information.
             </p>
             <p>
-              I'm currently Working on a flappy bird clone with vanilla JS check
+              I'm currently Working on a Journalling app
               it out
               <strong>
-                {" "}
-                <a href="https://github.com/Placeholder30/flappy-fish">
+                <a href="https://github.com/Placeholder30/Jotta">
                   <u>here</u>
                 </a>
               </strong>
